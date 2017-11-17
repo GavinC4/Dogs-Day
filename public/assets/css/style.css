@@ -6,6 +6,7 @@
 
 .nav_color {
     background-color: white;
+   
 }
 
 a {
@@ -22,7 +23,27 @@ nav img {
     padding: 5px;
 }
 
+#er{
+    font-size: 15px;
+    line-height: 120%;
+    color: white;
 
+}
+
+#er a {
+    font-weight: bold; 
+    color: white;
+ }
+#er a:hover {
+   font-weight: bold; 
+    text-decoration: underline;
+    color: white;
+}
+
+.emergency{
+    color: white !important;
+
+}
 /* .menu {
     float: right;
     position: relative;
@@ -32,7 +53,7 @@ nav img {
     position: absolute;
     color: black !important;
     display: inline-block;
-    font-size: 2.7rem !important;
+    font-size: 2.9rem !important;
     font-style: normal;
     font-weight: 100;
     font-family: 'Amatic SC', cursive;
@@ -66,10 +87,24 @@ input[type=email] {
     margin-top: 10px
 }
 
+/* cards content */
+.collection .collection-item.avatar{
+    min-height:130px !important;
+}
+
+.collection .collection-item.avatar:not(.circle-clipper) > .circle, .collection .collection-item.avatar :not(.circle-clipper) > .circle {
+width: 100px !important;
+height: 100px !important;
+}
+/* ============== */
+
 #ac-list {
     margin-top: 50px;
     position: relative;
-    margin-top: -6px;
+    margin-top: -6px;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
 
 #ac-list a:hover {
@@ -91,6 +126,13 @@ input[type=email] {
     margin-right: 16px;
 }
 
+.activity2 {
+    /* float: left; */
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color:  #ddfe00 !important;
+    margin-right: 16px;
+}
 #adventure {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
@@ -232,8 +274,13 @@ h1 {
  } */
 
 @media screen and (max-width: 640px) {
-    #activity {
+    .activity {
         font-size: 60px !important;
+        margin: 3px;
+    }
+
+    .activity2 {
+        font-size: 50px !important;
         margin: 3px;
     }
     span {
@@ -245,7 +292,7 @@ h1 {
     .cd-headline.type .cd-words-wrapper {
         font-size: 4.1rem
     }
-}
+    
 
 a.underline:hover {
   text-decoration: underline; 

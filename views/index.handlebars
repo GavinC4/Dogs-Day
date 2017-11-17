@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="nav-wrapper  z-depth-1">
                     <img src="/assets/img/dog-symbol.png" class="hide-on-med-and-down" class="section scrollspy">
-                    <a href="#" id="logo-container" class="brand-logo">Day With Your Dog</a>
+                    <a href="#" id="logo-container" class="brand-logo">Dog's Day</a>
 
                     <ul class="right hide-on-med-and-down">
                         <li>
@@ -57,21 +57,28 @@
                         <i class="mdi-navigation-menu"></i>
                     </a>
                     <!-- Element Showed -->
-                    <div class="fixed-action-btn" style="bottom:45px !important; right:24px !importantS;">
-                        <a id="menu" onclick="$('.tap-target').tapTarget('open');" class="waves-effect waves-light btn btn-floating red" >ER</a>
+                    <div class="fixed-action-btn" style="bottom:45px !important; right:24px !important;">
+                        <a id="menu" onclick="$('.tap-target').tapTarget('open');" class="waves-effect waves-light btn btn-floating red darken-2 emergency" >ER</a>
                     </div>
                     <!-- Tap Target Structure -->
-                    <div class="tap-target red" data-activates="menu">
-                        <div class="tap-target-content">
+                    <div class="tap-target  red darken-2" data-activates="menu">
+                        <div class="tap-target-content black-text">
                             <br>
                             <br>
                             <br>
-                            <h5>Emergency Pet Hospitol Orlando</h5>
-                            <p>407-323-2700</p>
-                            <P>8742 White Rd, Orlando, FL 32818</P>
-                            <a href="https://www.google.com/maps/dir/SSC,+College+Drive,+Sanford,+FL/Emergency+Pet+Hospital+of+Orlando,+8742+White+Rd,+Orlando,+FL+32818/@28.6450119,-81.5059945,11z/am=t/data=!4m13!4m12!1m5!1m1!1s0x88e76d2684165dcd:0x1f4d81166fb06182!2m2!1d-81.3010077!2d28.7505993!1m5!1m1!1s0x88e77871c43e3d2f:0x6a2ea917b4e0d116!2m2!1d-81.50573!2d28.562472" style="color:white;">
+                            <div id="er">
+                            <p class="fa fa-user-md" style="font-size:40px"></p>
+                            <h5>Emergency <br> Pet Hospital</h5>
+                            <p>407.323.2700<br>
+                            8742 White Rd, Orlando, FL,32818 <br>
+                            <br>
+                             <a href="https://www.google.com/maps/dir/SSC,+College+Drive,+Sanford,+FL/Emergency+Pet+Hospital+of+Orlando,+8742+White+Rd,+Orlando,+FL+32818/@28.6450119,-81.5059945,11z/am=t/data=!4m13!4m12!1m5!1m1!1s0x88e76d2684165dcd:0x1f4d81166fb06182!2m2!1d-81.3010077!2d28.7505993!1m5!1m1!1s0x88e77871c43e3d2f:0x6a2ea917b4e0d116!2m2!1d-81.50573!2d28.562472" target="_blank">
                             Directions
                             </a>
+                            </p>
+                           
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -212,14 +219,27 @@
             <div class="container" id="dayP"> 
                 <div class="row">
                     <div class="col s12">
-                        <div class="card" id="cardActivity">
-                            <div class="card-content">
-                                <h2 class="header text_b">Eat. Drink. Play. Shop.</h2>
-                                <!-- Cards appear here when marker clicked on map using append -->
-                                <div class="row" id="cardsAppearHere"></div>
-                            </div>
+                        <div class="ac-list2">
+                                     <div id="ac-list" class="col s12 center-align">
+                            {{#each index}}
+                            <a href="#yourMap" class="activity2 section scrollspy" id="restaurants" onclick="analyzeClick(this.id)">{{plan1}}</a>
+                            <a href="#yourMap"  class="activity2 section scrollspy" id="bars" onclick="analyzeClick(this.id)">{{plan2}}</a>
+                            <a href="#yourMap" class="activity2 section scrollspy" id="parks" onclick="analyzeClick(this.id)">{{plan3}}</a>
+                            <a href="#yourMap" class="activity2 section scrollspy" id="stores" onclick="analyzeClick(this.id)">{{plan4}}</a>
+                            {{/each}}
                         </div>
+                           </div>   
+                           
+                        
                     </div>
+
+                    <div class="col s12">
+                                     <!-- Cards appear here when marker clicked on map using append -->
+                                <div class="row" id="cardsAppearHere"></div>
+                          
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -265,9 +285,7 @@
                                     <a class="blue-text text-lighten-2" href="#">
                                         <i class="fa fa-envelope-square"></i>
                                     </a>
-                                    <a class="blue-text text-lighten-2" href="#">
-                                        <i class="fa fa-pencil-square"></i>
-                                    </a>
+                                
 
                                 </p>
                             </div>
@@ -289,19 +307,17 @@
                                     </small>
                                 </span>
                                 <p>
-                                    <a class="blue-text text-lighten-2" href="#">
+                                    <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/milena-g-wam/" target="_blank">
                                         <i class="fa fa-linkedin-square"></i>
                                     </a>
 
-                                    <a class="blue-text text-lighten-2" href="#">
+                                    <a class="blue-text text-lighten-2" href="https://github.com/milewam12" target="_blank">
                                         <i class="fa fa-github-square"></i>
                                     </a>
                                     <a class="blue-text text-lighten-2" href="#">
                                         <i class="fa fa-envelope-square"></i>
                                     </a>
-                                    <a class="blue-text text-lighten-2" href="#">
-                                        <i class="fa fa-pencil-square"></i>
-                                    </a>
+                                
                                 </p>
                             </div>
                         </div>
@@ -323,19 +339,17 @@
                                     </small>
                                 </span>
                                 <p>
-                                    <a class="blue-text text-lighten-2" href="#">
+                                    <a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/geoffrey-dwyer-2b0803145/" target="_blank">
                                         <i class="fa fa-linkedin-square"></i>
                                     </a>
 
-                                    <a class="blue-text text-lighten-2" href="#">
+                                    <a class="blue-text text-lighten-2" href="https://github.com/gcdwyer" target="_blank">
                                         <i class="fa fa-github-square"></i>
                                     </a>
                                     <a class="blue-text text-lighten-2" href="#">
                                         <i class="fa fa-envelope-square"></i>
                                     </a>
-                                    <a class="blue-text text-lighten-2" href="#">
-                                        <i class="fa fa-pencil-square"></i>
-                                    </a>
+                                   
                                 </p>
                             </div>
                         </div>
@@ -361,15 +375,13 @@
                                         <i class="fa fa-linkedin-square"></i>
                                     </a>
 
-                                    <a class="blue-text text-lighten-2" href="#">
+                                    <a class="blue-text text-lighten-2" href="https://github.com/GavinC4">
                                         <i class="fa fa-github-square"></i>
                                     </a>
                                     <a class="blue-text text-lighten-2" href="#">
                                         <i class="fa fa-envelope-square"></i>
                                     </a>
-                                    <a class="blue-text text-lighten-2" href="#">
-                                        <i class="fa fa-pencil-square"></i>
-                                    </a>
+                                   
                                 </p>
                             </div>
                         </div>

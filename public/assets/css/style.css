@@ -53,7 +53,7 @@ nav img {
     position: absolute;
     color: black !important;
     display: inline-block;
-    font-size: 2.7rem !important;
+    font-size: 2.9rem !important;
     font-style: normal;
     font-weight: 100;
     font-family: 'Amatic SC', cursive;
@@ -274,8 +274,13 @@ h1 {
  } */
 
 @media screen and (max-width: 640px) {
-    #activity {
+    .activity {
         font-size: 60px !important;
+        margin: 3px;
+    }
+
+    .activity2 {
+        font-size: 50px !important;
         margin: 3px;
     }
     span {
@@ -287,7 +292,7 @@ h1 {
     .cd-headline.type .cd-words-wrapper {
         font-size: 4.1rem
     }
-}
+    
 
 a.underline:hover {
   text-decoration: underline; 

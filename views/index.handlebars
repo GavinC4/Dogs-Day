@@ -141,6 +141,24 @@
         <div class="modal-content">
 
 
+            <div class="tab-content">
+                <div id="login" class="tab-pane active">
+                    <h1 id="logText">Welcome Back</h1>
+                    <form action="/login" method="post">
+                        <div class="form-group">
+                            <label for="username">User Name</label>
+                            <input type="text" class="form-control" name="username" id="username" placeholder="Enter Your Username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Enter Your Password" required>
+                        </div>
+                        <button type="submit" id="user_submit" class="btn blue darken-1">Login In</button>
+                    </form>
+                </div>
+            </div>
+
+
             <h1 id="logText">Welcome Back</h1>
 
             <div id="loginErr"></div>
@@ -227,8 +245,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col s12">
-                            <h2 class="center header text_h2"> FIND YOUR
-                                <span class="span_h2"> SPOT </span>
+                            <h2 class="center header text_h2"> WE'VE FOUND A PLACE TO
+                                  <span class="span_h2"> HANGOUT </span>
                             </h2>
                         </div>
                         <div class="col s12 white darken-2" id="map">GOOGLE MAPS

@@ -128,28 +128,32 @@ function analyzeClick(myClick){
     switch(myClick){
         case "restaurants":
             console.log("got to restaurant ==========================");
+            $(".span_h2").replaceWith('<span class="span_h2"> EAT </span>');
             initMap();
-            restaurant(); 
+            restaurant();
             break;
         case "bars":
             console.log("got to bar ==========================");
+            $(".span_h2").replaceWith('<span class="span_h2"> DRINK </span>');
             initMap();
             bar();
             break;
         case "parks":
             console.log("got to park ==========================");
+            $(".span_h2").replaceWith('<span class="span_h2"> PLAY </span>');
             initMap();
-            park(); 
+            park();
             break;
         case "stores":
             console.log("got to shop ==========================");
+            $(".span_h2").replaceWith('<span class="span_h2"> SHOP </span>');
             initMap();
-            shop(); 
+            shop();
             break;
         default:
             console.log("************ GOT THROUGH SWITCH WITH NOTHING ****************");
     }
-}    
+}   
 
 // ================================================================ RESTAURANTS =======================================================
 function restaurant() {

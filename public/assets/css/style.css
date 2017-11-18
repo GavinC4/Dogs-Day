@@ -47,6 +47,82 @@
     position: relative;
 } */
     
+
+}
+
+#ac-list a:hover {
+    background-color: #89c9f7;
+}
+
+.cd-headline.type .cd-words-wrapper {
+    vertical-align: top;
+    overflow: hidden;
+    font-family: 'Amatic SC', cursive;
+    font-size: 8.1rem
+}
+
+.activity {
+    /* float: left; */
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    color: #ddfe00 !important;
+    margin-right: 16px;
+}
+
+.activity2 {
+    /* float: left; */
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color:  #ddfe00 !important;
+    margin-right: 16px;
+}
+#adventure {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: -35px;
+    padding-bottom: 30px;
+}
+
+#allActivities {
+    background-color: #2d8bce;
+}
+
+#displayActivity {
+    background-color: white;
+    /* position: absolute; */
+}
+
+
+/* Notification div */
+#notifications {
+    cursor: pointer;
+    position: fixed;
+    right: 0px;
+    z-index: 9999;
+    bottom: 0px;
+    margin-bottom: 22px;
+    margin-right: 15px;
+    max-width: 300px;   
+}
+
+/* /// */
+
+
+/* FOOTER */
+
+#team {
+    background-color: #2d8bce;
+}
+
+.text_f {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+/* #cardActivity {
+
     .brand-logo {
         position: absolute;
         color: black !important;
@@ -171,6 +247,7 @@
         font-family: 'Amatic SC', cursive;
     }
     /* #cardActivity {
+
 
   right: -189px;
   width: 1014px; 

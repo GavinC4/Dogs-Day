@@ -1,29 +1,3 @@
-// // jQuery onclick for 4 options =============================================================================
-// $("#activity").click(function() {
-//     console.log("got to activity on click**************");
-//     var selection = $(this).attr("class");
-//     switch(selection){
-//         case "restarurant":
-//             console.log("got to restaurant ==========================");
-//             restaurant(); 
-//             break;
-//         case "bar":
-//             console.log("got to bar ==========================");
-//             bar(); 
-//             break;
-//         case "park":
-//             console.log("got to park ==========================");
-//             park(); 
-//             break;
-//         case "shop":
-//             console.log("got to shop ==========================");
-//             shop(); 
-//             break;
-//         default:
-//             console.log("************ GOT THROUGH SWITCH WITH NOTHING ****************");
-//     }
-// });
-
 var yelp = require('yelp-fusion');
 var token = "zlKJOEnGtMvJJtzuev9tdRldt7r1O4fKDKA7P6FiTbh3maMv19xJJSzeCm6D-hBiGWfLKe-wtIjtr7Sn_1iQG49Kz46XStBf9B3XgqzE0UYuK_8LEjvqZ9XxsZEDWnYx";
 var client = yelp.client(token);
@@ -64,48 +38,6 @@ var restaurant = function() {
     });
 }
 
-// restaurant();
-
-
-
-// var yelp = require('yelp-fusion');
-// var token = "zlKJOEnGtMvJJtzuev9tdRldt7r1O4fKDKA7P6FiTbh3maMv19xJJSzeCm6D-hBiGWfLKe-wtIjtr7Sn_1iQG49Kz46XStBf9B3XgqzE0UYuK_8LEjvqZ9XxsZEDWnYx";
-// var client = yelp.client(token);
-
-// BAR - DOG FRIENDLY ===================================================================
-// var bar = function() {
-
-//     console.log("###### BARS ######")
-//     console.log("==================")
-     
-//     client.search({
-//       term:"dog friendly",
-//       location: "orlando, fl", // update with current location
-//       categories: "bars"
-//     }).then(response => {
-
-//         var res = response.jsonBody.businesses;
-
-//         for (var i = 0; i < 4; i++) {
-
-//             console.log(res[i].name);
-//             console.log(res[i].coordinates);
-//             console.log("=======================================================");
-
-//         }
-
-//     }).catch(e => {
-
-//         console.log(e);
-
-//     });
-
-// };
-
-// var yelp = require('yelp-fusion');
-// var token = "zlKJOEnGtMvJJtzuev9tdRldt7r1O4fKDKA7P6FiTbh3maMv19xJJSzeCm6D-hBiGWfLKe-wtIjtr7Sn_1iQG49Kz46XStBf9B3XgqzE0UYuK_8LEjvqZ9XxsZEDWnYx";
-// var client = yelp.client(token);
-
 // PARKS ===================================================================
 var park = function() {
 
@@ -134,13 +66,6 @@ var park = function() {
     });
 
 };
-
-// park();
-
-
-// var yelp = require('yelp-fusion');
-// var token = "zlKJOEnGtMvJJtzuev9tdRldt7r1O4fKDKA7P6FiTbh3maMv19xJJSzeCm6D-hBiGWfLKe-wtIjtr7Sn_1iQG49Kz46XStBf9B3XgqzE0UYuK_8LEjvqZ9XxsZEDWnYx";
-// var client = yelp.client(token);
  
 // STORE - DOG ===================================================================
 var store = function() {
@@ -173,19 +98,3 @@ var store = function() {
 };
 
 store();
-
-
-
-// USED TO EXTRACT TOKEN - ONLY NEEDED FOR INITIAL SETUP ===========================================================
-// 'use strict';
- 
-// var yelp = require('yelp-fusion');
-
-// var clientId = "_soJC5AUUZsfY7jOQIedfQ";
-// var clientSecret = "nFVcvJpk8ejoOEaYPCEyDKizuETImgncdb1TYUozGIjt3jLGbHv0QZaGaVJQ4Zom";
- 
-// var token = yelp.accessToken(clientId, clientSecret).then(response => {
-//   console.log(response.jsonBody.access_token);
-// }).catch(e => {
-//   console.log(e);
-// });

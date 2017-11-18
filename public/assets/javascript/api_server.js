@@ -2,7 +2,7 @@
 // Request API access: http://www.yelp.com/developers/getting_started/api_access
 
 var Yelp = require('yelp');
-var config = require('config/config.json');
+// var config = require('config/config.json');
 var firebase = require('firebase');
 
 // Initialize Firebase

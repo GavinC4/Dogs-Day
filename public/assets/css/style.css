@@ -1,252 +1,220 @@
-        /* nav bar */
-    
-    * {
-        box-sizing: border-box;
-    }
-    
-    .nav_color {
-        background-color: white;
-    }
-    
-    a {
-        color: black !important;
-    }
-    
-    nav a {
-        font-size: 13px !important;
-        float: left;
-    }
-    
-    nav img {
-        float: left;
-        padding: 5px;
-    }
-    
-    #er {
-        font-size: 15px;
-        line-height: 120%;
-        color: white;
-    }
-    
-    #er a {
-        font-weight: bold;
-        color: white;
-    }
-    
-    #er a:hover {
-        font-weight: bold;
-        text-decoration: underline;
-        color: white;
-    }
-    
-    .emergency {
-        color: white !important;
-    }
-    /* .menu {
-    float: right;
-    position: relative;
-} */
-    
-
-}
-
-#ac-list a:hover {
-    background-color: #89c9f7;
-}
-
-.cd-headline.type .cd-words-wrapper {
-    vertical-align: top;
-    overflow: hidden;
-    font-family: 'Amatic SC', cursive;
-    font-size: 8.1rem
-}
-
-.activity {
-    /* float: left; */
-    font-family: 'Amatic SC', cursive;
-    font-size: 70px;
-    color: #ddfe00 !important;
-    margin-right: 16px;
-}
-
-.activity2 {
-    /* float: left; */
-    font-family: 'Amatic SC', cursive;
-    font-size: 50px;
-    color:  #ddfe00 !important;
-    margin-right: 16px;
-}
-#adventure {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
-    letter-spacing: 2px;
-    margin-top: -35px;
-    padding-bottom: 30px;
-}
-
-#allActivities {
-    background-color: #2d8bce;
-}
-
-#displayActivity {
-    background-color: white;
-    /* position: absolute; */
-}
-
-
-/* Notification div */
-#notifications {
-    cursor: pointer;
-    position: fixed;
-    right: 0px;
-    z-index: 9999;
-    bottom: 0px;
-    margin-bottom: 22px;
-    margin-right: 15px;
-    max-width: 300px;   
-}
-
-/* /// */
-
-
-/* FOOTER */
-
-#team {
-    background-color: #2d8bce;
-}
-
-.text_f {
-    color: white;
-    font-family: 'Amatic SC', cursive;
-}
-
-
-/* #cardActivity {
-
-    .brand-logo {
-        position: absolute;
-        color: black !important;
-        display: inline-block;
-        font-size: 2.9rem !important;
-        font-style: normal;
-        font-weight: 100;
-        font-family: 'Amatic SC', cursive;
-        padding: 0;
-        letter-spacing: 7px;
-    }
-    
-    #logText {
-        font-family: 'Amatic SC' cursive;
-        color: #2d8bce;
-        font-size: 2rem;
-    }
-    
-    input[type=text],
-    input[type=email] {
-        color: #444 !important;
-    }
-    /* index banner */
-    
-    #index-banner {
-        background-color: #2d8bce;
-        background-image: url("../img/dog-eyes.png");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: 50% 70%;
-    }
-    
-    #index-banner img {
-        margin-top: 10px
-    }
-    /* cards content */
-    
-    .collection .collection-item.avatar {
-        min-height: 130px !important;
-    }
-    
-    .collection .collection-item.avatar:not(.circle-clipper)>.circle,
-    .collection .collection-item.avatar :not(.circle-clipper)>.circle {
-        width: 100px !important;
-        height: 100px !important;
-    }
-    
-    .collection .collection-item.avatar {
-        padding-left: 140px !important;
-    }
-    
-    .collection .collection-item.avatar .title {
-        font-size: 25px !important;
-    }
-    
-    .collection .collection-item.avatar p {
-        margin: 0px;
-        font-size: 20px;
-        padding-top: 20px;
-    }
-    
-    #ac-list {
-        margin-top: 50px;
-        position: relative;
-        margin-top: -6px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    #ac-list a:hover {
-        background-color: #89c9f7;
-    }
-    
-    .cd-headline.type .cd-words-wrapper {
-        vertical-align: top;
-        overflow: hidden;
-        font-family: 'Amatic SC', cursive;
-        font-size: 8.1rem
-    }
-    
-    .activity {
-        /* float: left; */
-        font-family: 'Amatic SC', cursive;
-        font-size: 70px;
-        color: #ddfe00 !important;
-        margin-right: 16px;
-    }
-    
-    .activity2 {
-        /* float: left; */
-        font-family: 'Amatic SC', cursive;
-        font-size: 50px;
-        color: #ddfe00 !important;
-        margin-right: 16px;
-    }
-    
-    #adventure {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 15px;
-        letter-spacing: 2px;
-        margin-top: -35px;
-        padding-bottom: 30px;
-    }
-    
-    #allActivities {
-        background-color: #2d8bce;
-    }
-    
-    #displayActivity {
-        background-color: white;
-        /* position: absolute; */
-    }
-    /* /// */
-    /* FOOTER */
-    
-    #team {
-        background-color: #2d8bce;
-    }
-    
-    .text_f {
-        color: white;
-        font-family: 'Amatic SC', cursive;
-    }
-    /* #cardActivity {
+                            /* nav bar */
+                            
+                            * {
+                                box-sizing: border-box;
+                            }
+                            
+                            .nav_color {
+                                background-color: white;
+                            }
+                            
+                            a {
+                                color: black !important;
+                            }
+                            
+                            nav a {
+                                font-size: 13px !important;
+                                float: left;
+                            }
+                            
+                            nav img {
+                                float: left;
+                                padding: 5px;
+                            }
+                            
+                            #er {
+                                font-size: 15px;
+                                line-height: 120%;
+                                color: white;
+                            }
+                            
+                            #er a {
+                                font-weight: bold;
+                                color: white;
+                            }
+                            
+                            #er a:hover {
+                                font-weight: bold;
+                                text-decoration: underline;
+                                color: white;
+                            }
+                            
+                            .emergency {
+                                color: white !important;
+                            }
+                            
+                            .menu {
+                                float: right;
+                                position: relative;
+                            }
+                        }
+                        #ac-list a:hover {
+                            background-color: #89c9f7;
+                        }
+                        .cd-headline.type .cd-words-wrapper {
+                            vertical-align: top;
+                            overflow: hidden;
+                            font-family: 'Amatic SC', cursive;
+                            font-size: 8.1rem
+                        }
+                        .activity {
+                            /* float: left; */
+                            
+                            font-family: 'Amatic SC', cursive;
+                            font-size: 70px;
+                            color: #ddfe00 !important;
+                            margin-right: 16px;
+                        }
+                        .activity2 {
+                            /* float: left; */
+                            
+                            font-family: 'Amatic SC', cursive;
+                            font-size: 50px;
+                            color: #ddfe00 !important;
+                            margin-right: 16px;
+                        }
+                        #adventure {
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            font-size: 15px;
+                            letter-spacing: 2px;
+                            margin-top: -35px;
+                            padding-bottom: 30px;
+                        }
+                        #allActivities {
+                            background-color: #2d8bce;
+                        }
+                        #displayActivity {
+                            background-color: white;
+                            /* position: absolute; */
+                        }
+                        /* Notification div */
+                        #notifications {
+                            cursor: pointer;
+                            position: fixed;
+                            right: 0px;
+                            z-index: 9999;
+                            bottom: 0px;
+                            margin-bottom: 22px;
+                            margin-right: 15px;
+                            max-width: 300px;
+                        }
+                        /* /// */
+                        /* FOOTER */
+                        #team {
+                            background-color: #2d8bce;
+                        }
+                        .text_f {
+                            color: white;
+                            font-family: 'Amatic SC', cursive;
+                        }
+                        .brand-logo {
+                            position: absolute;
+                            color: black !important;
+                            display: inline-block;
+                            font-size: 2.9rem !important;
+                            font-style: normal;
+                            font-weight: 100;
+                            font-family: 'Amatic SC', cursive;
+                            padding: 0;
+                            letter-spacing: 7px;
+                        }
+                        /* #cardActivity { */
+                        #logText {
+                            font-family: 'Amatic SC' cursive;
+                            color: #2d8bce;
+                            font-size: 2rem;
+                        }
+                        input[type=text],
+                        input[type=email] {
+                            color: #444 !important;
+                        }
+                        /* index banner */
+                        #index-banner {
+                            background-color: #2d8bce;
+                            background-image: url("../img/dog-eyes.png");
+                            background-repeat: no-repeat;
+                            background-attachment: fixed;
+                            background-position: 50% 70%;
+                        }
+                        #index-banner img {
+                            margin-top: 10px
+                        }
+                        /* cards content */
+                        .collection .collection-item.avatar {
+                            min-height: 130px !important;
+                        }
+                        .collection .collection-item.avatar:not(.circle-clipper)>.circle,
+                        .collection .collection-item.avatar :not(.circle-clipper)>.circle {
+                            width: 100px !important;
+                            height: 100px !important;
+                        }
+                        .collection .collection-item.avatar {
+                            padding-left: 140px !important;
+                        }
+                        .collection .collection-item.avatar .title {
+                            font-size: 25px !important;
+                        }
+                        .collection .collection-item.avatar p {
+                            margin: 0px;
+                            font-size: 20px;
+                            padding-top: 20px;
+                        }
+                        #ac-list {
+                            margin-top: 50px;
+                            position: relative;
+                            margin-top: -6px;
+                            padding-top: 20px;
+                            padding-bottom: 20px;
+                        }
+                        #ac-list a:hover {
+                            background-color: #89c9f7;
+                        }
+                        .cd-headline.type .cd-words-wrapper {
+                            vertical-align: top;
+                            overflow: hidden;
+                            font-family: 'Amatic SC', cursive;
+                            font-size: 8.1rem
+                        }
+                        .activity {
+                            /* float: left; */
+                            
+                            font-family: 'Amatic SC', cursive;
+                            font-size: 70px;
+                            color: #ddfe00 !important;
+                            margin-right: 16px;
+                        }
+                        .activity2 {
+                            /* float: left; */
+                            
+                            font-family: 'Amatic SC', cursive;
+                            font-size: 50px;
+                            color: #ddfe00 !important;
+                            margin-right: 16px;
+                        }
+                        #adventure {
+                            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            font-size: 15px;
+                            letter-spacing: 2px;
+                            margin-top: -35px;
+                            padding-bottom: 30px;
+                        }
+                        #allActivities {
+                            background-color: #2d8bce;
+                        }
+                        #displayActivity {
+                            background-color: white;
+                            /* position: absolute; */
+                        }
+                        /* /// */
+                        /* FOOTER */
+                        #team {
+                            background-color: #2d8bce;
+                        }
+                        .text_f {
+                            color: white;
+                            font-family: 'Amatic SC', cursive;
+                        }
+                        /* #cardActivity {
 
 
   right: -189px;
@@ -255,79 +223,66 @@
  
 
 } */
-    
-    .container .row {
-        margin: 0 auto;
-    }
-    
-    .btn-large {
-        width: 100%;
-        height: 64px;
-        font-size: 1.25em;
-    }
-    
-    #map {
-        width: 100%;
-        height: 400px;
-    }
-    
-    img.cardImage {
-        height: 200px;
-        width: 300px;
-    }
-    
-    .itemInfo {
-        margin-bottom: 5px;
-    }
-    
-    nav .brand-logo {
-        letter-spacing: 0.0525em;
-        font-weight: 300;
-    }
-    
-    input[type=text],
-    input[type=email] {
-        color: white;
-    }
-    /*COLORS FOR THE LOCATION TYPE BAR*/
-    /* label color */
-    
-    .input-field label {
-        color: white;
-    }
-    /* label focus color */
-    
-    .input-field input[type=text]:focus+label {
-        color: white;
-    }
-    /* label underline focus color */
-    
-    .input-field input[type=text]:focus {
-        border-bottom: 1px solid white;
-        box-shadow: 0 1px 0 0 #000;
-    }
-    /* valid color */
-    
-    .input-field input[type=text].valid {
-        border-bottom: 1px solid #000;
-        box-shadow: 0 1px 0 0 #000;
-    }
-    /* invalid color */
-    
-    .input-field input[type=text].invalid {
-        border-bottom: 1px solid #000;
-        box-shadow: 0 1px 0 0 #000;
-    }
-    /* icon prefix focus color */
-    
-    .input-field .prefix.active {
-        color: white;
-    }
-    
-    h1 {
-        color: white;
-    }
-    /* @media screen and (max-width: 992px){
+                        .container .row {
+                            margin: 0 auto;
+                        }
+                        .btn-large {
+                            width: 100%;
+                            height: 64px;
+                            font-size: 1.25em;
+                        }
+                        #map {
+                            width: 100%;
+                            height: 400px;
+                        }
+                        img.cardImage {
+                            height: 200px;
+                            width: 300px;
+                        }
+                        .itemInfo {
+                            margin-bottom: 5px;
+                        }
+                        nav .brand-logo {
+                            font-family: 'Amatic SC', cursive;
+                            letter-spacing: 0.0525em;
+                            font-weight: 300;
+                        }
+                        input[type=text],
+                        input[type=email] {
+                            color: white;
+                        }
+                        /*COLORS FOR THE LOCATION TYPE BAR*/
+                        /* label color */
+                        .input-field label {
+                            color: white;
+                        }
+                        /* label focus color */
+                        .input-field input[type=text]:focus+label {
+                            color: white;
+                        }
+                        /* label underline focus color */
+                        .input-field input[type=text]:focus {
+                            border-bottom: 1px solid white;
+                            box-shadow: 0 1px 0 0 #000;
+                        }
+                        /* valid color */
+                        .input-field input[type=text].valid {
+                            border-bottom: 1px solid #000;
+                            box-shadow: 0 1px 0 0 #000;
+                        }
+                        /* invalid color */
+                        .input-field input[type=text].invalid {
+                            border-bottom: 1px solid #000;
+                            box-shadow: 0 1px 0 0 #000;
+                        }
+                        /* icon prefix focus color */
+                        .input-field .prefix.active {
+                            color: white;
+                        }
+                        h1 {
+                            color: white;
+                        }
+                        /* @media screen and (max-width: 992px){
   
    span{
      font-size: 30px !important;
@@ -337,25 +292,29 @@
      font-size: 4.1rem
    } 
  } */
-    
-    @media screen and (max-width: 640px) {
-        .activity {
-            font-size: 60px !important;
-            margin: 3px;
-        }
-        .activity2 {
-            font-size: 50px !important;
-            margin: 3px;
-        }
-        span {
-            font-size: 30px;
-        }
-        .span_h2 {
-            font-size: 48px;
-        }
-        .cd-headline.type .cd-words-wrapper {
-            font-size: 4.1rem
-        }
-        a.underline:hover {
-            text-decoration: underline;
-        }
+                        @media screen and (max-width: 640px) {
+                            .activity {
+                                font-size: 60px !important;
+                                margin: 3px;
+                            }
+                            
+                            .activity2 {
+                                font-size: 50px !important;
+                                margin: 3px;
+                            }
+                            
+                            span {
+                                font-size: 30px;
+                            }
+                            
+                            .span_h2 {
+                                font-size: 48px;
+                            }
+                            
+                            .cd-headline.type .cd-words-wrapper {
+                                font-size: 4.1rem
+                            }
+                            
+                            a.underline:hover {
+                                text-decoration: underline;
+                            }

@@ -30,6 +30,7 @@
     "method-override": "^2.3.10",
     "mocha": "^4.0.1",
     "mysql": "^2.15.0",
+    "nightmare": "^2.10.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
